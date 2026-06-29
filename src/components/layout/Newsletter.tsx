@@ -29,7 +29,7 @@ export const Newsletter: React.FC = () => {
 
       <div className="max-w-3xl mx-auto px-4 text-center relative z-10">
         <h3 className="font-heading text-2xl md:text-3xl text-gold-light tracking-wide mb-2">
-          Join the JKS Atelier
+          Join the Ascope Atelier
         </h3>
         <p className="font-luxury italic text-sm text-neutral-400 max-w-lg mx-auto mb-8">
           Subscribe to receive exclusive invitations to collection previews, private sales events, and gold rate insights.
