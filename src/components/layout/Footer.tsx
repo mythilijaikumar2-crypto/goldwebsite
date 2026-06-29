@@ -61,17 +61,18 @@ export const Footer: React.FC = () => {
           
           <div className="flex items-start gap-2.5">
             <MapPin className="w-4 h-4 text-gold-primary shrink-0 mt-0.5" />
-            <span>742 Premium Avenue, Diamond District, Beverly Hills, CA 90210</span>
+            <span>Ascope Tech, 5th floor, SBRR Square,
+Anna Nagar, Trichy – 620017</span>
           </div>
 
           <div className="flex items-center gap-2.5">
             <Phone className="w-4 h-4 text-gold-primary shrink-0" />
-            <a href="tel:+15559821217" className="hover:text-gold-primary transition">+1 (555) 982-1217</a>
+            <a href="tel:+91-7418240526" className="hover:text-gold-primary transition">+91-7418240526</a>
           </div>
 
           <div className="flex items-center gap-2.5">
             <Mail className="w-4 h-4 text-gold-primary shrink-0" />
-            <a href="mailto:concierge@jksjewels.com" className="hover:text-gold-primary transition">concierge@jksjewels.com</a>
+            <a href="mailto:ascopetech@gmail.com" className="hover:text-gold-primary transition">ascopetech@gmail.com</a>
           </div>
         </div>
 

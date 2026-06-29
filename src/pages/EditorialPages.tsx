@@ -322,7 +322,7 @@ export const StoreLocator: React.FC = () => {
             </p>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-gold-primary" />
-              <span>+1 (555) 982-1217</span>
+              <span>+91-7418240526</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-gold-primary" />
