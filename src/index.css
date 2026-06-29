@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold-primary: #D4AF37;
+  --color-gold-light: #F5D78E;
+  --color-gold-dark: #A67C2D;
+  --color-luxury-bg: #0A0A0A;
+  --color-luxury-surface: #151515;
+  --color-luxury-white: #FFFFFF;
+  --color-luxury-gray: #C7C7C7;
+  --color-luxury-border: rgba(212, 175, 55, 0.15);
+
+  --font-heading: "Playfair Display", serif;
+  --font-luxury: "Cormorant Garamond", serif;
+  --font-body: "Inter", sans-serif;
+  
+  --animate-gold-pulse: goldPulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-shimmer: shimmer 2s infinite linear;
+}
+
+@keyframes goldPulse {
+  0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 2px rgba(212, 175, 55, 0.3)); }
+  50% { opacity: 1; filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.8)); }
+}
+
+@keyframes shimmer {
+  from { background-position: -200% 0; }
+  to { background-position: 200% 0; }
+}
+
+/* Custom Base resets */
+:root {
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #0A0A0A;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.03) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(166, 124, 45, 0.03) 0%, transparent 40%);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Luxury Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2A2A;
+  border-radius: 3px;
+  border: 1px solid rgba(212, 175, 55, 0.1);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Premium utilities */
+.luxury-glass {
+  background: rgba(21, 21, 21, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.luxury-text-gradient {
+  background: linear-gradient(135deg, #F5D78E 0%, #D4AF37 50%, #A67C2D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.luxury-button-gradient {
+  background: linear-gradient(135deg, #A67C2D 0%, #D4AF37 50%, #F5D78E 100%);
+  background-size: 200% auto;
+  transition: 0.5s;
+}
+.luxury-button-gradient:hover {
+  background-position: right center;
+}
+
+.gold-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+}
+.gold-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.35);
+}
+
+/* Swiper custom styling for premium looks */
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.3) !important;
+  opacity: 1 !important;
+  width: 8px !important;
+  height: 8px !important;
+  transition: all 0.3s ease !important;
+}
+.swiper-pagination-bullet-active {
+  background: #D4AF37 !important;
+  width: 24px !important;
+  border-radius: 4px !important;
+}
+
+/* Zoom Viewer animations */
+.zoom-image-container img {
+  transition: transform 0.1s ease-out;
+}
+
+/* Hide Swiper default navigation buttons or restyle */
+.swiper-button-next, .swiper-button-prev {
+  color: #D4AF37 !important;
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px !important;
+  font-weight: bold;
+}
