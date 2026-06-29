@@ -11,9 +11,9 @@ export const Footer: React.FC = () => {
         
         {/* Brand Summary Column (GEO optimized) */}
         <div className="flex flex-col gap-4">
-          <span className="font-heading text-lg tracking-[0.2em] text-gold-primary uppercase">JKS Jewels</span>
+          <span className="font-heading text-lg tracking-[0.2em] text-gold-primary uppercase">ASCOPE JEWELLLERY</span>
           <p className="text-xs text-luxury-gray leading-relaxed">
-            Established in 1994, JKS Jewels represents the pinnacle of luxury gold and diamond craftsmanship. 
+            Established in 1994, ASCOPE JEWELLLERY represents the pinnacle of luxury gold and diamond craftsmanship. 
             All our products are certified by international assay standards, including 100% BIS Hallmark stamp 
             and GIA/IGI diamond certifications.
           </p>
@@ -78,7 +78,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 mt-16 pt-6 border-t border-gold-primary/5 flex flex-col md:flex-row items-center justify-between text-[10px] text-neutral-500 gap-4">
-        <span>© {currentYear} JKS Jewels LLC. All Rights Reserved. Crafted with timeless care.</span>
+        <span>© {currentYear} ASCOPE JEWELLLERY LLC. All Rights Reserved. Crafted with timeless care.</span>
         <div className="flex items-center gap-4">
           <Link to="/shipping-policy" className="hover:text-gold-primary transition">Shipping Policy</Link>
           <Link to="/refund-policy" className="hover:text-gold-primary transition">Refund Policy</Link>

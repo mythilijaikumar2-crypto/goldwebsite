@@ -15,7 +15,7 @@ import { MapPin, Phone, Clock, ChevronDown, Sparkles, Scale, BookOpen, HelpCircl
 export const About: React.FC = () => {
   return (
     <>
-      <SEO title="Our Story & Heritage" description="Learn about the origins of JKS Jewels, our legacy of gold craftsmanship, and conflict-free diamond ethics." />
+      <SEO title="Our Story & Heritage" description="Learn about the origins of ASCOPE JEWELLLERY, our legacy of gold craftsmanship, and conflict-free diamond ethics." />
       <div className="grow max-w-5xl mx-auto px-4 w-full select-none py-6 text-left">
         <Breadcrumbs items={[{ label: 'About Us' }]} />
         <div className="my-10 max-w-3xl">
@@ -24,7 +24,7 @@ export const About: React.FC = () => {
           
           <div className="flex flex-col gap-6 text-sm text-neutral-400 font-body leading-relaxed">
             <p>
-              Founded in 1994 in Beverly Hills' prestigious diamond district, JKS Jewels has established a worldwide reputation 
+              Founded in 1994 in Beverly Hills' prestigious diamond district, ASCOPE JEWELLLERY has established a worldwide reputation 
               as a master purveyor of high-carat gold and conflict-free diamonds. Our name is synonymous with timeless design, 
               expert crafting, and structural integrity.
             </p>
@@ -130,7 +130,7 @@ export const BlogDetails: React.FC = () => {
     "articleBody": blog.content,
     "author": {
       "@type": "Organization",
-      "name": "JKS Jewels Atelier"
+      "name": "ASCOPE JEWELLLERY Atelier"
     }
   };
 
@@ -301,7 +301,7 @@ export const GoldRate: React.FC = () => {
 export const StoreLocator: React.FC = () => {
   return (
     <>
-      <SEO title="Luxury Stores Locator" description="Find JKS Jewels retail stores and book private showroom viewing appointments." />
+      <SEO title="Luxury Stores Locator" description="Find ASCOPE JEWELLLERY retail stores and book private showroom viewing appointments." />
       <div className="grow max-w-5xl mx-auto px-4 w-full select-none py-6 text-left">
         <Breadcrumbs items={[{ label: 'Showroom Locator' }]} />
 
@@ -360,13 +360,13 @@ export const Contact: React.FC = () => {
   });
 
   const onSubmit = (data: any) => {
-    console.log('[JKS Jewels] Contact form submitted:', data);
+    console.log('[ASCOPE JEWELLLERY] Contact form submitted:', data);
     setSuccess(true);
   };
 
   return (
     <>
-      <SEO title="Contact Concierge Support" description="Reach out to our JKS Jewels concierge desk for custom orders, sizing consultations, and support." />
+      <SEO title="Contact Concierge Support" description="Reach out to our ASCOPE JEWELLLERY concierge desk for custom orders, sizing consultations, and support." />
       <div className="grow max-w-md mx-auto px-4 w-full select-none py-12 text-left">
         <Breadcrumbs items={[{ label: 'Contact Us' }]} />
         <div className="bg-luxury-surface border border-gold-primary/10 rounded p-8 mt-4 shadow-2xl">
@@ -501,7 +501,7 @@ export const PrivacyPolicy: React.FC = () => (
     <SEO title="Privacy Policy" description="Review details on user data security and customer profiles handling." />
     <PolicyLayout title="Privacy Policy">
       <p>
-        At JKS Jewels, we treat your profile credentials and personal coordinates with strict confidentiality. 
+        At ASCOPE JEWELLLERY, we treat your profile credentials and personal coordinates with strict confidentiality. 
         We do not trade, sell, or disclose registry details to external marketing companies.
       </p>
       <h4 className="font-semibold text-white uppercase text-[10px] tracking-wider mt-2 mb-0.5">Information We Gather</h4>
@@ -523,7 +523,7 @@ export const TermsConditions: React.FC = () => (
     <SEO title="Terms & Conditions" description="Review terms of service, pricing structures, and hallmarking details." />
     <PolicyLayout title="Terms & Conditions">
       <p>
-        By using JKS Jewels, you agree to comply with our commercial terms. 
+        By using ASCOPE JEWELLLERY, you agree to comply with our commercial terms. 
         All gold rates are updated dynamically according to international bullion spots.
       </p>
       <h4 className="font-semibold text-white uppercase text-[10px] tracking-wider mt-2 mb-0.5">Dynamic Pricing Estimates</h4>
@@ -533,7 +533,7 @@ export const TermsConditions: React.FC = () => (
       </p>
       <h4 className="font-semibold text-white uppercase text-[10px] tracking-wider mt-2 mb-0.5">Authenticity Stamps</h4>
       <p>
-        JKS Jewels certifies the authenticity of all high-carat products. Any attempt to modify, polish, or alter hallmark stamps 
+        ASCOPE JEWELLLERY certifies the authenticity of all high-carat products. Any attempt to modify, polish, or alter hallmark stamps 
         voids our lifetime buyback warranty program.
       </p>
     </PolicyLayout>
@@ -566,7 +566,7 @@ export const RefundPolicy: React.FC = () => (
       </p>
       <h4 className="font-semibold text-white uppercase text-[10px] tracking-wider mt-2 mb-0.5">Lifetime Buyback warranty</h4>
       <p>
-        All JKS Jewels items qualify for our lifetime buyback and exchange warranty program. 
+        All ASCOPE JEWELLLERY items qualify for our lifetime buyback and exchange warranty program. 
         We calculate exchange payouts using prevailing market gold rates of the metal weight (excluding GST taxes and labor making charges).
       </p>
     </PolicyLayout>

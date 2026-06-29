@@ -190,7 +190,7 @@ export const FAQS: FAQItem[] = [
   {
     id: "faq-2",
     question: "How are making charges calculated on gold jewellery?",
-    answer: "Making charges cover the labor and artistic crafting costs of the jewellery. At JKS Jewels, we charge a transparent making fee either as a flat amount per gram (for chains and bangles) or a percentage of the prevailing gold rate (for complex temple designs). Making charges are clearly detailed before billing.",
+    answer: "Making charges cover the labor and artistic crafting costs of the jewellery. At ASCOPE JEWELLLERY, we charge a transparent making fee either as a flat amount per gram (for chains and bangles) or a percentage of the prevailing gold rate (for complex temple designs). Making charges are clearly detailed before billing.",
     category: "General"
   },
   {
@@ -202,7 +202,7 @@ export const FAQS: FAQItem[] = [
   {
     id: "faq-4",
     question: "What is your refund and return policy for online purchases?",
-    answer: "We offer a 14-day hassle-free return policy for unused products in their original packaging with security tags intact. We also offer a lifetime buyback and exchange guarantee on all JKS Jewels gold and diamond pieces based on prevailing market rates of metal and stone weights.",
+    answer: "We offer a 14-day hassle-free return policy for unused products in their original packaging with security tags intact. We also offer a lifetime buyback and exchange guarantee on all ASCOPE JEWELLLERY gold and diamond pieces based on prevailing market rates of metal and stone weights.",
     category: "Shipping & Returns"
   },
   {

@@ -88,7 +88,7 @@ export const LuxuryLoader: React.FC = () => {
               transition={{ duration: 1.5, ease: 'easeOut' }}
               className="font-heading text-3xl md:text-4xl font-light text-gold-light uppercase"
             >
-              JKS Jewels
+              ASCOPE JEWELLLERY
             </motion.h1>
 
             {/* Tagline */}

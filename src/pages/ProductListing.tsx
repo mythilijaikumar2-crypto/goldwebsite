@@ -29,7 +29,7 @@ export const ProductListing: React.FC = () => {
 
   // Set page headers & meta based on pathname/query
   let title = "Luxury Jewellery Collection";
-  let description = "Explore the complete catalogue of JKS Jewels. Handcrafted rings, necklaces, bands, earrings and customized jewelry.";
+  let description = "Explore the complete catalogue of ASCOPE JEWELLLERY. Handcrafted rings, necklaces, bands, earrings and customized jewelry.";
   let bannerImage = "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&q=80&w=1200";
 
   // Check URL parameters for preset conditions

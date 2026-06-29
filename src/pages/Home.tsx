@@ -41,13 +41,13 @@ const TESTIMONIALS = [
   {
     name: 'Alexandra de Rothschild',
     role: 'Collector',
-    quote: 'The craftsmanship of the royal choker I ordered is absolutely sublime. JKS Jewels provides a level of luxury and detail that rivals Place Vendôme.',
+    quote: 'The craftsmanship of the royal choker I ordered is absolutely sublime. ASCOPE JEWELLLERY provides a level of luxury and detail that rivals Place Vendôme.',
     stars: 5
   },
   {
     name: 'Vikram Malhotra',
     role: 'Investor',
-    quote: 'Extremely transparent billing. The live price calculations matching exact gold weights and daily market rates make JKS Jewels the most trusted jewelry brand.',
+    quote: 'Extremely transparent billing. The live price calculations matching exact gold weights and daily market rates make ASCOPE JEWELLLERY the most trusted jewelry brand.',
     stars: 5
   },
   {
@@ -82,7 +82,7 @@ export const Home: React.FC = () => {
   const homeSchema = {
     "@context": "https://schema.org",
     "@type": "JewelryStore",
-    "name": "JKS Jewels",
+    "name": "ASCOPE JEWELLLERY",
     "image": HERO_SLIDES[0].image,
     "priceRange": "$$$$",
     "telephone": "+1-555-982-1217",
@@ -100,7 +100,7 @@ export const Home: React.FC = () => {
     <>
       <SEO 
         title="Timeless Elegance, Crafted in Gold"
-        description="Explore JKS Jewels' premium collection of 22K hallmark gold rings, heavy bridal necklaces, certified diamond sets, and antique temple jewellery."
+        description="Explore ASCOPE JEWELLLERY' premium collection of 22K hallmark gold rings, heavy bridal necklaces, certified diamond sets, and antique temple jewellery."
         schema={homeSchema}
       />
 
@@ -208,7 +208,7 @@ export const Home: React.FC = () => {
           <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
             <span className="font-luxury italic text-base text-gold-primary tracking-widest flex items-center justify-center gap-1">
               <Sparkles className="w-4 h-4" />
-              The Bride of JKS Jewels
+              The Bride of ASCOPE JEWELLLERY
             </span>
             <h2 className="font-heading text-3xl md:text-5xl text-white uppercase tracking-wider font-light mt-3 mb-6">
               Grand Heritage Bridal Wear

@@ -374,7 +374,7 @@ export const ProductDetails: React.FC = () => {
             {activeTab === 'shipping' && (
               <div className="flex flex-col gap-3 font-body">
                 <p>
-                  To secure your high-value assets, JKS Jewels coordinates transport with specialized security carriers. 
+                  To secure your high-value assets, ASCOPE JEWELLLERY coordinates transport with specialized security carriers. 
                   Every delivery strictly requires:
                 </p>
                 <ul className="list-disc pl-5 flex flex-col gap-1">

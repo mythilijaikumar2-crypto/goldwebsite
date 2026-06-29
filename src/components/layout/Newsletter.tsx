@@ -18,7 +18,7 @@ export const Newsletter: React.FC = () => {
   });
 
   const onSubmit = (data: NewsletterForm) => {
-    console.log('[JKS Jewels] Newsletter signup email:', data.email);
+    console.log('[ASCOPE JEWELLLERY] Newsletter signup email:', data.email);
     setSubscribed(true);
   };
 

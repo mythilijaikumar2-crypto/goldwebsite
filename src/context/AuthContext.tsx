@@ -236,7 +236,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const sendOtp = async (email: string): Promise<string> => {
     // Generate a secure mock 6 digit OTP code
     const otp = Math.floor(100000 + Math.random() * 900000).toString();
-    console.log(`[JKS Jewels] Mock Verification OTP for ${email}: ${otp}`);
+    console.log(`[ASCOPE JEWELLLERY] Mock Verification OTP for ${email}: ${otp}`);
     return otp;
   };
 

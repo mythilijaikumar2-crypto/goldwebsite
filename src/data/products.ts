@@ -116,7 +116,7 @@ const COMMENTS = [
   "Absolutely breathtaking design. The craftsmanship on the gold is second to none.",
   "Stunning finish! The weight feels substantial and the hallmark is clear. Very luxury experience.",
   "Bought this as a wedding gift, and it exceeded all expectations. Incredible sparkle and premium packaging.",
-  "A masterpiece of jewellery art. Highly recommend JKS Jewels for their outstanding customer support.",
+  "A masterpiece of jewellery art. Highly recommend ASCOPE JEWELLLERY for their outstanding customer support.",
   "The 360 view helped me decide. It looks even more beautiful in person! The gold luster is perfect.",
   "Elegant, refined, and classic. The finish is impeccable. Delivery was secure and fast."
 ];

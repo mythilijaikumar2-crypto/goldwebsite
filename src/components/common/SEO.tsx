@@ -18,7 +18,7 @@ export const SEO: React.FC<SEOProps> = ({
   ogImage = 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&q=80&w=1200',
   schema
 }) => {
-  const brandName = "JKS Jewels";
+  const brandName = "ASCOPE JEWELLLERY";
   const fullTitle = `${title} | ${brandName} - Timeless Luxury Gold Jewellery`;
   const currentUrl = canonicalUrl || window.location.href;
 

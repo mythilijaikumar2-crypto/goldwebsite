@@ -343,7 +343,7 @@ export const Checkout: React.FC = () => {
 
               {paymentMethod === 'bank' && (
                 <div className="text-xs font-body text-neutral-400 leading-relaxed bg-luxury-bg p-4 rounded border border-neutral-900">
-                  Please instruct your private bank manager to wire transfer the final billing amount to JKS Jewels LLC vault account details 
+                  Please instruct your private bank manager to wire transfer the final billing amount to ASCOPE JEWELLLERY LLC vault account details 
                   which will be sent to your email. We release the jewellery immediately upon transfer validation.
                 </div>
               )}

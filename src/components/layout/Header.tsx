@@ -96,7 +96,7 @@ export const Header: React.FC = () => {
             {/* Logo */}
             <Link to="/" className="flex flex-col items-start select-none">
               <span className="font-heading text-xl md:text-2xl font-light tracking-[0.2em] text-gold-primary uppercase">
-                JKS Jewels
+                ASCOPE JEWELLLERY
               </span>
               <span className="text-[8px] uppercase tracking-[0.3em] font-luxury text-luxury-white/60">
                 Crafted In Gold

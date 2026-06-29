@@ -53,7 +53,7 @@ export const Login: React.FC = () => {
 
   return (
     <>
-      <SEO title="Account Login" description="Log into JKS Jewels to manage your orders, saved addresses, settings, and personal wishlist." />
+      <SEO title="Account Login" description="Log into ASCOPE JEWELLLERY to manage your orders, saved addresses, settings, and personal wishlist." />
       <div className="grow max-w-md mx-auto px-4 w-full py-16 text-left select-none">
         <Breadcrumbs items={[{ label: 'Login' }]} />
         <div className="bg-luxury-surface border border-gold-primary/10 rounded p-8 mt-4 shadow-2xl">
@@ -122,7 +122,7 @@ export const Register: React.FC = () => {
 
   return (
     <>
-      <SEO title="Create Account" description="Register a personal account with JKS Jewels to secure private viewings, tailored bridal sets, and lifetime buyback warranties." />
+      <SEO title="Create Account" description="Register a personal account with ASCOPE JEWELLLERY to secure private viewings, tailored bridal sets, and lifetime buyback warranties." />
       <div className="grow max-w-md mx-auto px-4 w-full py-12 text-left select-none">
         <Breadcrumbs items={[{ label: 'Register' }]} />
         <div className="bg-luxury-surface border border-gold-primary/10 rounded p-8 mt-4 shadow-2xl">
@@ -208,7 +208,7 @@ export const ForgotPassword: React.FC = () => {
 
   return (
     <>
-      <SEO title="Recover Password" description="Request a reset link or OTP verification code to recover your JKS Jewels member credentials." />
+      <SEO title="Recover Password" description="Request a reset link or OTP verification code to recover your ASCOPE JEWELLLERY member credentials." />
       <div className="grow max-w-md mx-auto px-4 w-full py-16 text-left select-none">
         <Breadcrumbs items={[{ label: 'Recover Password' }]} />
         <div className="bg-luxury-surface border border-gold-primary/10 rounded p-8 mt-4 shadow-2xl">
@@ -264,7 +264,7 @@ export const OtpVerification: React.FC = () => {
   const onSubmit = (data: any) => {
     setErrorMsg('');
     // Mock OTP verification - logs details to developer console
-    console.log(`[JKS Jewels] Checking verification OTP: ${data.otp}`);
+    console.log(`[ASCOPE JEWELLLERY] Checking verification OTP: ${data.otp}`);
     setSuccess(true);
     setTimeout(() => {
       navigate('/profile');
@@ -273,7 +273,7 @@ export const OtpVerification: React.FC = () => {
 
   return (
     <>
-      <SEO title="OTP Verification" description="Submit your 6-digit one-time PIN to authenticate access into JKS Jewels luxury profile registry." />
+      <SEO title="OTP Verification" description="Submit your 6-digit one-time PIN to authenticate access into ASCOPE JEWELLLERY luxury profile registry." />
       <div className="grow max-w-md mx-auto px-4 w-full py-16 text-left select-none">
         <Breadcrumbs items={[{ label: 'OTP Verification' }]} />
         <div className="bg-luxury-surface border border-gold-primary/10 rounded p-8 mt-4 shadow-2xl">

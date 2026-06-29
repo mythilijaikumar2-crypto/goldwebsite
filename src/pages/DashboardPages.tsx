@@ -111,7 +111,7 @@ export const Profile: React.FC = () => {
 
   return (
     <DashboardLayout activeTab="profile" title="My Profile">
-      <SEO title="My Profile" description="Manage your JKS Jewels customer account profile details." />
+      <SEO title="My Profile" description="Manage your ASCOPE JEWELLLERY customer account profile details." />
       <div className="bg-luxury-surface border border-gold-primary/10 rounded p-6">
         <h3 className="font-heading text-sm text-gold-light uppercase tracking-wider mb-6 pb-2 border-b border-gold-primary/10">
           Profile Details

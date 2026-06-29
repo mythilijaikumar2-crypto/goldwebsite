@@ -29,7 +29,7 @@ export const SearchResults: React.FC = () => {
 
   return (
     <>
-      <SEO title={`Search Results for "${query}"`} description={`Review the matching gold and diamond jewellery search results for "${query}" on JKS Jewels.`} />
+      <SEO title={`Search Results for "${query}"`} description={`Review the matching gold and diamond jewellery search results for "${query}" on ASCOPE JEWELLLERY.`} />
 
       <div className="grow max-w-7xl mx-auto px-4 w-full select-none py-6 text-left">
         <Breadcrumbs items={[{ label: 'Search Results' }]} />
