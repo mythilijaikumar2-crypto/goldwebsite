@@ -78,10 +78,13 @@ body {
 /* Premium utilities */
 .luxury-glass {
   background: rgba(21, 21, 21, 0.75);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(30px);
+  transform-style: preserve-3d;
+  -webkit-backdrop-filter: blur(30px);
   border: 1px solid rgba(212, 175, 55, 0.1);
 }
+
+
 
 .luxury-text-gradient {
   background: linear-gradient(135deg, #F5D78E 0%, #D4AF37 50%, #A67C2D 100%);
@@ -164,11 +167,7 @@ section{
   margin-inline:auto;
 }
 
-.luxury-glass{
-  backdrop-filter:blur(30px);
-  background:rgba(255,255,255,.04);
-  border:1px solid rgba(212,175,55,.15);
-}
+
 
 .luxury-hover{
   transition:all .4s ease;
