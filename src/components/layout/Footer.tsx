@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
 
         {/* Contact Info / Store Coordinates */}
         <div className="flex flex-col gap-3.5 text-xs text-neutral-400">
-          <h4 className="text-xs uppercase tracking-widest text-gold-light font-bold mb-1">Ascope Atelier</h4>
+          <h4 className="text-xs uppercase tracking-widest text-gold-light font-bold mb-1">Ascope Jewellery Store Address</h4>
           
           <div className="flex items-start gap-2.5">
             <MapPin className="w-4 h-4 text-gold-primary shrink-0 mt-0.5" />
