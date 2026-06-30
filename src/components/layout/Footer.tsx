@@ -79,7 +79,7 @@ Anna Nagar, Trichy – 620017</span>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 mt-16 pt-6 border-t border-gold-primary/5 flex flex-col md:flex-row items-center justify-between text-[10px] text-neutral-500 gap-4">
-        <span>© {currentYear} ASCOPE JEWELLLERY LLC. All Rights Reserved. Crafted with timeless care.</span>
+        <span>© {currentYear} Ascope Jewellery LLC. All Rights Reserved. Crafted with timeless care.</span>
         <div className="flex items-center gap-4">
           <Link to="/shipping-policy" className="hover:text-gold-primary transition">Shipping Policy</Link>
           <Link to="/refund-policy" className="hover:text-gold-primary transition">Refund Policy</Link>

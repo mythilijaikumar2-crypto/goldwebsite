@@ -39,19 +39,19 @@ const HERO_SLIDES = [
 
 const TESTIMONIALS = [
   {
-    name: 'Alexandra de Rothschild',
+    name: 'Sathya Narayanan',
     role: 'Collector',
     quote: 'The craftsmanship of the royal choker I ordered is absolutely sublime. ASCOPE JEWELLLERY provides a level of luxury and detail that rivals Place Vendôme.',
     stars: 5
   },
   {
-    name: 'Vikram Malhotra',
+    name: 'Rajesh Kannan N',
     role: 'Investor',
     quote: 'Extremely transparent billing. The live price calculations matching exact gold weights and daily market rates make ASCOPE JEWELLLERY the most trusted jewelry brand.',
     stars: 5
   },
   {
-    name: 'Seraphina Vance',
+    name: 'Ashwin Kumar',
     role: 'Art Director',
     quote: 'Their customer care concierge treated me like royalty, sending video previews of the ring settings. Absolute premium ecommerce benchmark.',
     stars: 5
