@@ -107,7 +107,12 @@ export const Home: React.FC = () => {
       <div className="grow">
         
         {/* HERO SLIDER SECTION */}
-        <section className="relative w-full h-[70vh] md:h-[85vh] bg-black">
+        <section
+className="
+relative
+min-h-screen
+h-[100svh]
+overflow-hidden bg-black">
           <Swiper
             modules={[Navigation, Pagination, Autoplay, EffectFade]}
             effect="fade"

@@ -35,6 +35,11 @@
   color: #FFFFFF;
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
+  --fs-xs: clamp(0.75rem,0.7rem + 0.2vw,0.875rem);
+  --fs-sm: clamp(0.875rem,0.8rem + 0.3vw,1rem);
+  --fs-md: clamp(1rem,0.9rem + 0.5vw,1.25rem);
+  --fs-lg: clamp(1.5rem,1rem + 2vw,3rem);
+  --fs-xl: clamp(2rem,1.2rem + 4vw,6rem);
 }
 
 body {
@@ -114,6 +119,11 @@ body {
   border-radius: 4px !important;
 }
 
+.container-luxury{
+    width:min(1440px,92%);
+    margin-inline:auto;
+}
+
 /* Zoom Viewer animations */
 .zoom-image-container img {
   transition: transform 0.1s ease-out;
@@ -126,4 +136,44 @@ body {
 .swiper-button-next::after, .swiper-button-prev::after {
   font-size: 20px !important;
   font-weight: bold;
+}
+
+html{
+  font-size:clamp(14px,0.8vw + 12px,18px);
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+section{
+  scroll-margin-top:100px;
+}
+
+.container-luxury{
+  width:min(1440px,92%);
+  margin-inline:auto;
+}
+
+.luxury-glass{
+  backdrop-filter:blur(30px);
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(212,175,55,.15);
+}
+
+.luxury-hover{
+  transition:all .4s ease;
+}
+
+.luxury-hover:hover{
+  transform:translateY(-8px);
 }
